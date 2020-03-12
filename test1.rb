@@ -1,5 +1,6 @@
 #input = gets.chomp.split
 File.open('log.txt') do | file |
+    # test change
     array = []
     result = []
     file.each_line do | in_data |
